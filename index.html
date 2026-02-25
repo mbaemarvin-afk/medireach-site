@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MediReach Medical Clinic</title>
   <meta name="description" content="MediReach Medical Clinic — digital health-focused care and community engagement in Kenya." />
+  <meta name="theme-color" content="#0b1020" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -12,14 +13,15 @@
   <header class="header">
     <div class="container nav">
       <div class="brand">
-        <img class="logo" src="logo.png" alt="MediReach logo" />
+        <!-- Ensure logo.png exists in the repo root (same folder as index.html) -->
+        <img class="logo" src="logo.png" alt="MediReach Medical Clinic logo" />
         <div>
           <div class="brand-name">MediReach Medical Clinic</div>
           <div class="brand-tag">Digital Health • Community Engagement • Kenya</div>
         </div>
       </div>
 
-      <nav class="menu">
+      <nav class="menu" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#services">Services</a>
         <a href="#digital">Digital Health</a>
@@ -29,31 +31,33 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" aria-label="Hero">
       <div class="container hero-grid">
         <div>
           <p class="pill">Mon–Sat • 8:00am–6:00pm • Chogoria</p>
           <h1>Accessible care, powered by digital health.</h1>
           <p class="lead">
-            MediReach Medical Clinic delivers patient-centered services supported by mobile-enabled follow-up,
+            <strong>MediReach Medical Clinic</strong> delivers patient-centered services supported by mobile-enabled follow-up,
             health education, and digital-first communication.
           </p>
 
           <div class="cta-row">
-            <a class="btn" href="https://wa.me/254732213597" target="_blank">Chat on WhatsApp</a>
+            <a class="btn" href="https://wa.me/254732213597" target="_blank" rel="noopener">
+              Chat on WhatsApp
+            </a>
             <a class="btn ghost" href="#services">View Services</a>
           </div>
 
           <div class="mini">
             <div><strong>WhatsApp:</strong> +254 732 213 597</div>
-            <div><strong>Email:</strong> medireachmedicalclinic@gmail.com</div>
+            <div><strong>Email:</strong> <a href="mailto:medireachmedicalclinic@gmail.com">medireachmedicalclinic@gmail.com</a></div>
           </div>
         </div>
 
         <div class="card">
           <h2 class="card-title">M.E.D.I.R.E.A.C.H</h2>
           <p class="muted">
-            Mobile-Enabled Digital Intelligence for Remote Engagement and AI-Powered Community Health.
+            <strong>Mobile-Enabled Digital Intelligence</strong> for Remote Engagement and <strong>AI-Powered Community Health</strong>.
           </p>
           <div class="hr"></div>
           <ul class="checklist">
@@ -68,9 +72,9 @@
 
     <section id="about" class="section">
       <div class="container">
-        <h2>About MediReach</h2>
+        <h2>About MediReach Medical Clinic</h2>
         <p>
-          MediReach Medical Clinic (M.E.D.I.R.E.A.C.H — Mobile-Enabled Digital Intelligence for Remote Engagement and AI-Powered Community Health)
+          <strong>MediReach Medical Clinic</strong> (M.E.D.I.R.E.A.C.H — Mobile-Enabled Digital Intelligence for Remote Engagement and AI-Powered Community Health)
           is a digital health-focused clinic in Chogoria, Kenya. We combine quality care with mobile-first tools such as WhatsApp engagement,
           digital follow-up, and data-informed prevention to improve patient experience and strengthen community health.
         </p>
@@ -134,28 +138,29 @@
         <div class="grid-2">
           <div class="card">
             <h3>Clinic Details</h3>
+            <p><strong>Clinic:</strong> MediReach Medical Clinic</p>
             <p><strong>Location:</strong> Chogoria, Tharaka-Nithi County, Kenya</p>
             <p><strong>Hours:</strong> Mon–Sat, 8:00am–6:00pm</p>
             <p><strong>Email:</strong> <a href="mailto:medireachmedicalclinic@gmail.com">medireachmedicalclinic@gmail.com</a></p>
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/254732213597" target="_blank">+254 732 213 597</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/254732213597" target="_blank" rel="noopener">+254 732 213 597</a></p>
           </div>
 
           <div class="card">
             <h3>Social</h3>
-            <p><strong>Facebook:</strong> 
-              <a href="https://www.facebook.com/medireachmedicalclinic" target="_blank">MediReach Medical Clinic</a>
+            <p><strong>Facebook:</strong>
+              <a href="https://www.facebook.com/medireachmedicalclinic" target="_blank" rel="noopener">MediReach Medical Clinic</a>
             </p>
 
-            <p><strong>YouTube:</strong> 
-              <a href="https://www.youtube.com/@medireachmedicalclinic" target="_blank">@medireachmedicalclinic</a>
+            <p><strong>YouTube:</strong>
+              <a href="https://www.youtube.com/@medireachmedicalclinic" target="_blank" rel="noopener">@medireachmedicalclinic</a>
             </p>
 
-            <p><strong>TikTok:</strong> 
-              <a href="https://www.tiktok.com/@medireachmedicalclinic" target="_blank">@medireachmedicalclinic</a>
+            <p><strong>TikTok:</strong>
+              <a href="https://www.tiktok.com/@medireachmedicalclinic" target="_blank" rel="noopener">@medireachmedicalclinic</a>
             </p>
 
             <div class="cta-row">
-              <a class="btn" href="https://wa.me/254732213597" target="_blank">Message on WhatsApp</a>
+              <a class="btn" href="https://wa.me/254732213597" target="_blank" rel="noopener">Message on WhatsApp</a>
             </div>
           </div>
         </div>
